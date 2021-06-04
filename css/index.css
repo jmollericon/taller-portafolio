@@ -1,5 +1,6 @@
-@import "./button.css";
 @import "./header.css";
+@import "./button.css";
+@import "./button-icon.css";
 
 :root {
   --baseFont: 'Poppins', sans-serif;
