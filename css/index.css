@@ -9,6 +9,8 @@
 @import "./card.css";
 @import "./social.css";
 @import "./footer.css";
+@import "./form.css";
+@import "./title.css";
 
 :root {
   --baseFont: 'Poppins', sans-serif;
@@ -25,6 +27,7 @@
   --purple: #310A90;
   --green: #42E2B8;
   --white: #FFFFFF;
+  --gray: #858C94;
 }
 body {
   background: var(--gradient);
