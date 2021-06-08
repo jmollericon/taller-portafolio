@@ -1,45 +1,45 @@
-.testimony {
+.project {
   /* padding-block-start: 40px; */
   padding-block-end: 40px;
 }
-.testimony-image img {
+.project-image img {
   max-inline-size: 100%;
 }
-.testimony-description {
+.project-description {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.testimony-description p {
+.project-description p {
   margin: 0;
 }
-.testimony-buttons {
+.project-buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
 @media screen and (min-width: 768px){
-  .testimony {
+  .project {
     display: flex;
     align-items: center;
     padding-block-start: 80px;
     padding-block-end: 80px;
   }
-  .testimony-description {
+  .project-description {
     flex: 1;
   }
-  .container-tc:nth-child(2n) .testimony-image {
+  .container-tc:nth-child(2n) .project-image {
     order: 2;
     flex: 1;
     text-align: center;
   }
-  .testimony-buttons {
+  .project-buttons {
     display: flex;
     flex-direction: row;
     gap: 16px;
   }
-  .testimony-buttons .is-secondary {
+  .project-buttons .is-secondary {
     order: 1;
   }
 }
