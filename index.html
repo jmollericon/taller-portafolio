@@ -13,7 +13,7 @@
   <div class="wrapper">
     <header class="header">
       <img src="./images/logo.png" width="70" height="20" alt="Logo">
-      <nav class="menu">
+      <nav class="menu" aria-label="main-navigation">
         <ul>
           <li>
             <a class="is-active" href="#main">Hola</a>
@@ -26,11 +26,9 @@
           </li>
         </ul>
       </nav>
-
-
       <button class="button">Currículum</button>
     </header>
-    <section class="hero" id="main">
+    <section aria-label="main" class="hero" id="main">
       <div class="hero-image">
         <img src="./images/user-porfafolio.png" width="325" height="330" alt="Imagen Usuario">
       </div>
@@ -40,7 +38,7 @@
           <span>Soy Jaume</span>
         </h1>
         <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
-        <div class="hero-social">
+        <div class="social">
           <a class="button-icon" href="tel:1234567"><img src="./icons/icon-phone.svg" alt=""></a>
           <a class="button-icon" href="tel:1234567"><img src="./icons/icon-important_mail.svg" alt=""></a>
           <a class="button-icon" href="tel:1234567"><img src="./icons/icon-instagram.svg" alt=""></a>
@@ -142,6 +140,21 @@
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./images/logo-white.png" width="70" height="20" alt="Logo">
+      </div>
+      <div class="social">
+        <a class="button-icon" href="tel:1234567"><img src="./icons/icon-phone.svg" alt=""></a>
+        <a class="button-icon" href="tel:1234567"><img src="./icons/icon-important_mail.svg" alt=""></a>
+        <a class="button-icon" href="tel:1234567"><img src="./icons/icon-instagram.svg" alt=""></a>
+        <a class="button-icon" href="tel:1234567"><img src="./icons/icon-twitter_squared.svg" alt=""></a>
+      </div>
+      <div class="footer-copyright">
+        <p>Hecho con el ❤ por Jaume. </p>
+        <p>Copyright 2021 - Todos los derechos reservados.</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
