@@ -46,11 +46,16 @@
     order: 1;
     max-inline-size: 450px;
   }
+  .hero-description .button {
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px) {
   .hero-image img {
     inline-size: 500px;
     block-size: 504px;
   }
-
+  .hero-description .button {
+    display: none;
+  }
 }
